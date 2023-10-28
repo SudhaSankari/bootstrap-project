@@ -15,136 +15,99 @@
             font-family: "Allura";
             src: url(font/Allura-Regular.ttf);
         }
-        * {
-            box-sizing: border-box;
+        @font-face {
+            font-family: "neon";
+            src: url(font/NEON-WORLD-DEMO-BF64708f984c3f3.ttf);
         }
-
         img {
             max-width: 100%;
         }
-
         .background {
             background-image: url(pictures/pexels-photo-12206301.jpeg);
             width: 100%;
             height: 600px;
             background-position: center center;
             background-size: cover;
-            
         }
-       .fontfam{
-        font-family: "Allura";
-       }
-        .about{
-            height: 600px;
-        }
-        .about1{
-            height: 200px;
-        }
-        .about2{
-            height: 400px;
-        }
-
-
-        .height {
+        .height{
             height: 530px;
-
+            text-shadow: -1px 1px 20px black;
         }
-      
-        .prog {
-            height: 300px;
+        .navspace{
+            height:70px;
         }
-
-        .mail {
-            /* height: 375px; */
-            height: 400px;
+        .changecolor{
+            color: white;
         }
-
-        .box1 {
-            height: 100px;
+        .logo{
+            font-family:"neon";
+            text-shadow: 1px -3px 3px #E91E63;
         }
-
-        .box2 {
-            height: 300px;
-        }
-
-        /* .teamTotal {
-           
-            height: 1000px;
-        }
-
-        .team {
-            
-            height: 200px;
-        }
-
-        .teamHead {
-           
-            height: 800px;
-        } */
-
-        .forposition {
-            height: 200px;
-        }
+        
+       .fontfam{
+            font-family: "Allura";
+       }
+       .size{
+            padding:10px;
+       }
+       .end1{
+           padding:10px;
+       }
+       .end2{
+            padding:10px;
+       }
         .background2{
             background-image: url(pictures/city-street-photography-1920x1080.jpg);
             background-position: center center;
             background-size: cover;
+            width:100%;
+            height: 800px;
         }
-
-
         .progress1::before{
             position: absolute;
             content: "95%";
             background-color: black;
             color:white;
-            margin-left: 590px;
-            margin-top: -30px;
-           border-radius: 5px;
-           padding: 3px;
+            margin-left: 572px;
+            margin-top: -31px;
+            border-radius: 5px;
+            padding: 3px;
         }
-        
-    .progress1::after{
+       .progress1::after{
             position:absolute;
             content: "";
             border-top: 6px solid black;
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
             margin-top: -7px;
-            margin-left: 599px;
+            margin-left: 580px;
         }
-
-
-
         .progress2::before{
             position:absolute;
             content: "75%";
             background-color: black;
             color:white;
-            margin-top: -30px;
-            margin-left: 464px;
+            margin-top: -31px;
+            margin-left: 449px;
             padding: 3px;
             border-radius: 5px;
         }
         .progress2::after{
-           
             position:absolute;
             content: "";
             border-top: 6px solid black;
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
             margin-top: -7px;
-            margin-left: 472px;
-            
+            margin-left: 457px;
         }
-
-     
         .progress3::before{
             position:absolute;
             content: "55%";
             background-color: black;
             color: white;
-            margin-top: -30px;
-            margin-left: 335px;
+            margin-top: -31px;
+            margin-left: 325px;
             padding: 3px;
             border-radius: 5px;
         }
@@ -154,170 +117,134 @@
             border-top: 6px solid black;
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
-            margin-top: -6px;
-            margin-left: 344px;
-    }
-
-
+            margin-top: -7px;
+            margin-left: 334px;
+          }
 @media(max-width:992px){
-    .progress1::before{
-       margin-left: 307px;
-        font-size: x-small;
-        margin-top: -28px;
+      .progress1::before{
+            margin-left: 288px;
+            font-size: x-small;
+            margin-top: -28px;
         }
-   .progress1::after{
-        margin-left: 314px;
-        margin-top: -8px;
+     .progress1::after{
+            margin-left: 295px;
+            margin-top: -8px;
        }
-  
-
     .progress2::before{
-        margin-left: 240px;
-        font-size: x-small;
-        margin-top: -28px;
+            margin-left: 225px;
+            font-size: x-small;
+            margin-top: -28px;
     }
     .progress2::after{
-        margin-left: 247px;
-        margin-top: -8px;
+            margin-left: 232px;
+            margin-top: -8px;
     }
-
-
-
     .progress3::before{
-        margin-left: 173px;
-        font-size: x-small;
-        margin-top: -28px;
-
+            margin-left: 162px;
+            font-size: x-small;
+            margin-top: -28px;
     }
     .progress3::after{
-       margin-left: 180px;
-       margin-top: -8px;
+            margin-left: 169px;
+            margin-top: -8px;
+    }
+    .navi1{
+        width:40% ;
+        padding:5px;
     }
 }
-
-
-
-
-
-
-
-
-
-
 @media(max-width:768px){
     .progress1::before{
-        margin-left: 221px;
-    font-size: x-small;
-    margin-top: -28px;
-}
-.progress1::after{
-        margin-left: 228px;
-       margin-top: -8px;
-}
-  
-
-    .progress2::before{
-        margin-left: 173px;
+        margin-left: 202px;
         font-size: x-small;
         margin-top: -28px;
-    }
-    .progress2::after{
-        margin-left: 180px;
+     }
+   .progress1::after{
+        margin-left: 209px;
         margin-top: -8px;
     }
-
-
-
-    .progress3::before{
-        margin-left: 123px;
+    .progress2::before{
+        margin-left: 158px;
         font-size: x-small;
         margin-top: -28px;
-
-    }
-    .progress3::after{
-      margin-left: 130px;
-       margin-top: -8px;
-    }
-
-    }
-   
-
-
-
-@media (max-width:576px) {
-    .progress1::before{
-        margin-left: 304px;
-    }
-    .progress1::after{
-        margin-left: 313px;
-    }
-
-    .progress2::before{
-        margin-left: 237px;
     }
     .progress2::after{
-        margin-left:246px ;
+        margin-left: 165px;
+        margin-top: -8px;
     }
     .progress3::before{
-        margin-left: 171px;
+        margin-left: 112px;
+        font-size: x-small;
+        margin-top: -28px;
+    }
+    .progress3::after{
+        margin-left: 119px;
+        margin-top: -8px;
+    }
+   .navi1{
+    width:20% ;
+    padding:3px;
+   }
+    }
+@media (max-width:576px) {
+    .progress1::before{
+        margin-left: 246px;
+    }
+    .progress1::after{
+        margin-left: 253px;
+    }
+    .progress2::before{
+        margin-left: 191px;
+    }
+    .progress2::after{
+        margin-left:198px;
+    }
+    .progress3::before{
+        margin-left: 137px;
 
     }
     .progress3::after{
-      margin-left: 179px;
+      margin-left: 144px;
     }
+    .button1{
+        font-size: x-small;
+        padding: 5px;
+    }
+   .navi1{
+    width:20% ;
+    padding:3px;
+   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
     </style>
 </head>
-
 <body>
     <div class="container-fluid g-0 bg-light">
-
-
-
-
-
-        <!--  -->
-
-
         <div class="container-fluid g-0  background">
             <div class="row g-0">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg bg-dark opacity-50  navbar-dark ">
+                    <nav class="navbar navbar-expand-lg bg-dark opacity-50  navbar-dark navspace">
                         <div class="container">
-                            <a href="#" class="navbar-brand me-auto">Web Creation</a>
+                            <a href="#" class="navbar-brand me-auto text-light changecolor logo">Web Creation</a>
                             <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                                 data-bs-target="#navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse justify-content-end" id="navigation">
-
                                 <ul class="navbar-nav ">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link active">Home</a>
+                                    <li class="nav-item m-2">
+                                        <a href="#" class="nav-link btn btn-outline-warning rounded-0  active navi1" >Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About</a>
+                                    <li class="nav-item  m-2">
+                                        <a href="#" class="nav-link btn btn-outline-warning  rounded-0  changecolor navi1" >About</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Team </a>
+                                    <li class="nav-item  m-2">
+                                        <a href="#" class="nav-link  btn btn-outline-warning  rounded-0 changecolor navi1">Team </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Portfolio</a>
+                                    <li class="nav-item  m-2">
+                                        <a href="#" class="nav-link btn btn-outline-warning  rounded-0  changecolor navi1" >Portfolio</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact</a>
+                                    <li class="nav-item  m-2">
+                                        <a href="#" class="nav-link btn btn-outline-warning  rounded-0 changecolor navi1" >Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -325,8 +252,6 @@
                     </nav>
                 </div>
             </div>
-
-
             <div class="row height d-flex align-items-center justify-content-center g-0 ">
                 <div class="col   ">
                     <div class="h1 text-light text-center fs-1 fontfam">Nice to meet you</div>
@@ -334,15 +259,11 @@
                     <div class="text-center">
                         <button class="btn btn-warning" type="button">Get in touch</button>
                     </div>
-
                 </div>
             </div>
         </div>
-
-        <!--  -->
-        
-            <div class="container mt-5 about ">
-                <div class="row g-0 about1">
+            <div class="container   ">
+                <div class="row g-0 m-2 ">
                     <div class="col-sm-12">
                         <div class="h1 text-dark text-center"> About Us</div>
                         <div class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut quod
@@ -351,7 +272,7 @@
                             dolor debitis repellendus consequatur sapiente quia corrupti?</div>
                     </div>
                 </div>
-                <div class="row prog d-flex align-items-center about2">
+                <div class="row m-2 d-flex align-items-center ">
                     <div class="col-sm-6 ">
                         <div class="h3">What can we Do</div>
                         <div>
@@ -363,68 +284,53 @@
                     <div class="col-sm-6">
                         <div>Design</div>
                         <div class="progress rounded-0 progress1 mb-3">
-    
                             <div class="progress-bar bg-warning rounded-0" style="width:95%"></div>
                         </div>
                         <div> Coding</div>
                         <div class="progress rounded-0 progress2 mb-3">
-    
                             <div class="progress-bar bg-warning rounded-0" style="width:75%"></div>
                         </div>
                         <div>Marketing</div>
                         <div class="progress rounded-0 progress3 mb-3">
-    
                             <div class="progress-bar bg-warning rounded-0" style="width:55%"></div>
                         </div>
                     </div>
                 </div>
-    
             </div>
-        
-       
-        <!--  -->
-
-        <div class="container-fluid bg-warning mail g-0">
-            <div class="container">
-                <div class="row box1 align-items-center ">
-                    <div class="col">
-                        <div class="text-center h2">subscribe to our newsletter</div>
+        <div class="container-fluid bg-warning  g-0">
+            <div class="container g-0">
+                <div class="row  align-items-center p-4 ">
+                    <div class="col ">
+                        <div class="text-center h2">Subscribe To Our Newsletter</div>
                     </div>
                 </div>
-                <form class="row row-cols-lg-4 align-items-center justify-content-center box2 ">
-                    <div class="col-12 col-lg-3">
+                <form class="row row-cols-lg-4 align-items-center justify-content-center g-0 p-5">
+                    <div class="col-12 col-lg-3 size">
                         <label for="firstname" class="visually-hidden">firstname</label>
-
-                        <input type="text" class="form-control rounded-0 border-0 "
+                        <input type="text" class="form-control rounded-0 border-0"
                             style="background-color: rgb(235, 208, 140);" name="firstname" placeholder="First Name"
                             id="firstname">
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-3  size">
                         <label for="lastname" class="visually-hidden">lastname</label>
-
-                        <input type="text" class="form-control  rounded-0  border-0 "
+                        <input type="text" class="form-control rounded-0 border-0"
                             style="background-color: rgb(235, 208, 140);" name="lastname" placeholder="Last Name"
                             id="lastname">
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-3  size">
                         <label for="email" class="visually-hidden">Email</label>
-                        <input type="email" class="form-control  rounded-0 border-0 "
+                        <input type="email" class="form-control rounded-0 border-0"
                             style="background-color: rgb(235, 208, 140);" name="email" id="email" placeholder="Email">
                     </div>
-                    <div class="col-12 col-lg-3 ">
-                        <button class="btn btn-secondary   rounded-0" style="width:200px" type="button" >Subscribe</button>
+                    <div class="col-12 col-lg-3  size ">
+                        <button class="btn btn-secondary rounded-0" style="width:200px" type="button" >Subscribe</button>
                     </div>
                 </form>
-
             </div>
         </div>
-       
-        <!--  -->
-
-
-        <div class="container-fluid bg-dark g-0  teamTotal">
+        <div class="container-fluid bg-dark g-0  ">
             <div class="container">
-                <div class="row team d-flex align-items-center g-0 mb-3">
+                <div class="row  d-flex align-items-center g-0 mb-3">
                     <div class="col-12 p-4">
                         <div class="text-center text-light h1">Our Team</div>
                         <div class="text-center text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -435,31 +341,25 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row teamHead d-flex justify-content-center align-items-center ">
-                    <div class="col-lg-3 col-6  p-4">
-
+                <div class="row  d-flex justify-content-center align-items-center g-0">
+                    <div class="col-lg-3 col-6 p-4">
                         <div>
                             <img src="pictures/best.jpg" width="200px" height="200px"
                                 class=" d-block border border-5 border-warning mx-auto  rounded-circle" alt="image">
                         </div>
-
                         <div>
                             <div class="text-light text-center">Name</div>
                             <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Et similique amet temporibus, incidunt laborum saepe!
                             </div>
                             <div class="d-flex justify-content-center m-3">
-
                                 <button class="btn btn-warning justify-content-center" type="button">
                                     <i class="fa-regular fa-envelope text-light" style="font-size:xx-large;"></i>
                                 </button>
-
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-6">
-
+                    <div class="col-lg-3 col-6 p-4">
                         <div>
                             <img src="pictures/man-pic.jpg" width="200px" height="200px"
                                 class=" d-block border border-5 border-warning mx-auto rounded-circle" alt="image">
@@ -470,16 +370,13 @@
                                 Et similique amet temporibus, incidunt laborum saepe!
                             </div>
                             <div class="d-flex justify-content-center m-3">
-
                                 <button class="btn btn-warning justify-content-center" type="button">
                                     <i class="fa-regular fa-envelope text-light" style="font-size:xx-large;"></i>
                                 </button>
-
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 col-6 p-4">
                         <div>
                             <img src="pictures/man2.jpg" width="200px" height="200px"
                                 class=" d-block border border-5 border-warning  mx-auto rounded-circle" alt="image">
@@ -487,20 +384,16 @@
                         <div>
                             <div class="text-light text-center">Name</div>
                             <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                . Et similique amet temporibus, incidunt laborum saepe!
+                                Et similique amet temporibus, incidunt laborum saepe!
                             </div>
                             <div class="d-flex justify-content-center m-3">
-
                                 <button class="btn btn-warning justify-content-center" type="button">
                                     <i class="fa-regular fa-envelope text-light" style="font-size:xx-large;"></i>
                                 </button>
-
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 col-6 p-4">
                         <div>
                             <img src="pictures/pexels-emmy-e-2381069.jpg" width="200px" height="200px"
                                 class=" d-block border border-5 border-warning mx-auto rounded-circle" alt="image">
@@ -511,29 +404,18 @@
                                 Et similique amet temporibus, incidunt laborum saepe!
                             </div>
                             <div class="d-flex justify-content-center m-3">
-
                                 <button class="btn btn-warning justify-content-center" type="button">
                                     <i class="fa-regular fa-envelope text-light" style="font-size:xx-large;"></i>
                                 </button>
-
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
-
         </div>
-        <!--  -->
-
-
-
         <div class="container-fluid g-0">
-
             <div class="container">
-                <div class="row mb-5 mt-5">
+                <div class="row mb-5 mt-5 g-0">
                     <div class="col-12">
                         <div class="text-center h1">Portfolio</div>
                         <div class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
@@ -546,54 +428,17 @@
             </div>
             <div class="container">
                 <div class="row mb-5 g-0 ">
-                    <div class="col justify-content-center d-flex ">
-                        <button type="button" class="btn btn-outline-warning active m-2">All</button>
-                    
-                   
-                        <button type="button" class="btn btn-outline-warning m-2">Design</button>
-                    
-                    
-                        <button type="button" class="btn btn-outline-warning m-2">Identity</button>
-                    
-                    
-                        <button type="button" class="btn btn-outline-warning m-2">Photography</button>
-                   
-                     
-                        <button type="button" class="btn btn-outline-warning m-2">Illustration</button>
-                   
+                    <div class="col-12  d-flex justify-content-center buttons">
+                        <button type="button" class="btn btn-outline-warning btn-sm active m-2 button1">All</button>
+                        <button type="button" class="btn btn-outline-warning m-2 button1">Design</button>
+                        <button type="button" class="btn btn-outline-warning m-2 button1">Identity</button>
+                        <button type="button" class="btn btn-outline-warning m-2 button1">Photography</button>
+                        <button type="button" class="btn btn-outline-warning m-2 button1">Illustration</button>
                       </div>
-
-
-                       
-
                 </div>
             </div>
-            <!-- <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 d-flex justify-content-center  ">
-
-                        <button type="button" class="btn btn-outline-warning m-2 active">All</button>
-
-
-                        <button type="button" class="btn btn-outline-warning m-2">Design</button>
-
-
-                        <button type="button" class="btn btn-outline-warning m-2">Identity</button>
-
-
-                        <button type="button" class="btn btn-outline-warning m-2">Photography</button>
-
-
-                        <button type="button" class="btn btn-outline-warning m-2">Illustration</button>
-
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- editing up -->
-
             <div class="container">
-                <div class="row row-cols-sm-1  row-cols-md-3 mb-5 ">
+                <div class="row row-cols-sm-1  row-cols-md-3 mb-5  ">
                     <div class="col-12 col-md-12 col-lg-4 mb-5">
                         <div class="card" style="height:277px;">
                             <img src="pictures/cycle.jpg" class="card-img w-100 h-100 rounded-0" alt="card">
@@ -603,26 +448,23 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-md-12 col-lg-4 mb-5">
+                    <div class="col-12 col-md-12 col-lg-4 mb-5 ">
                         <div class="card" style="height:277px;">
                             <img src="pictures/desktop-wallpaper-plants-nature-trees-sunset-dandelions-thumbnail.jpg"
                                 class="card-img w-100 h-100 rounded-0 " alt="card">
                             <div class="card-img-overlay d-grid align-items-end p-0" style="height: 277px;">
                                 <div class="opacity-75 bg-dark p-2">
                                     <h5 class="card-title text-light text-center   ">Title</h5>
-                                    <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
+                                    <p class="card-text text-light fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-12 col-lg-4">
+                    <div class=" col-12 col-md-12 col-lg-4 ">
                         <div class="card" style="height:277px;">
                             <img src="pictures/vintage-aesthetic_fb-img_1200x800.jpg" class="w-100 h-100" alt="">
                             <div class="card-img-overlay d-grid align-items-end p-0 rounded-0" style="height: 277px;">
@@ -631,12 +473,10 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- row1 end -->
                 <div class="row mb-5 ">
                     <div class="col-12 col-md-12 col-lg-4 mb-5">
                         <div class="card" style="height:277px;">
@@ -647,11 +487,9 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-12 col-lg-4 mb-5">
                         <div class="card" style="height:277px;">
                             <img src="pictures/james-cowin-vintage-microphone-01.jpg" class="card-img w-100 h-100 "
@@ -662,7 +500,6 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -675,12 +512,10 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- row-2 end -->
                 <div class="row mb-5 ">
                     <div class="col-12 col-md-12 col-lg-4 mb-5">
                         <div class="card" style="height:277px;">
@@ -691,11 +526,9 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-12 col-lg-4 mb-5">
                         <div class="card" style="height:277px;">
                             <img src="pictures/car.jpg" class="card-img w-100 h-100" alt="card">
@@ -705,7 +538,6 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -718,30 +550,23 @@
                                     <p class="card-text text-light   fs-6">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
-            <!--  -->
-
             <div class="container-fluid g-0 background2" >
                 <div class="container">
-
-                    <div class="row mb-5 g-3">
-                        <div class="col">
+                    <div class="row mb-5  g-0">
+                        <div class="col-12 p-3">
                             <div class="h1 text-center text-light">Contact</div>
                             <div class="text-center text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
                                 nisi, ipsam eum quae reiciendis minus nemo, aliquid quasi exercitationem eveniet cum est
                                 magnam iusto impedit omnis! Omnis, nostrum aut. Quam!</div>
                         </div>
                     </div>
-
-                    <div class="row ">
-                        <div class="col">
+                    <div class="row g-0">
+                        <div class="col-12">
                             <form >
                                 <div class="mb-3 justify-content-center d-flex">
                                     <input type="text" name="Username" class="form-control w-50" placeholder="Enter Your Name">
@@ -764,135 +589,27 @@
                             </form>
                         </div>
                     </div>
-
-
-                     <div class="row">
-                          <div class="col d-flex justify-content-center">
-                              <div class="text-light m-3">Home</div>
-                              <div class="text-light m-3">About</div>
-                              <div class="text-light m-3">Team</div>
-                              <div class="text-light m-3">Portfolio</div>
-                              <div class="text-light m-3">Contact</div>
-                             
+                     <div class="row g-0">
+                          <div class="col-12 d-flex justify-content-center">
+                              <div class="text-light end1">Home</div>
+                              <div class="text-light end1">About</div>
+                              <div class="text-light end1">Team</div>
+                              <div class="text-light end1">Portfolio</div>
+                              <div class="text-light end1">Contact</div>
                           </div>
                      </div>
-                       <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                    <div class="text-light m-3">Copyright © WebCreation 2023</div>
-                                    <div class="text-light m-3">Privacy Policy</div>
-                                    <div class="text-light m-3">All Rights Reserved</div>
+                       <div class="row g-0">
+                            <div class="col-12 d-flex justify-content-center">
+                                    <div class="text-light end2">Copyright © WebCreation 2023</div>
+                                    <div class="text-light end2">Privacy Policy</div>
+                                    <div class="text-light end2">All Rights Reserved</div>
                             </div>
                        </div>
-
-
-
-
-
-
-
-
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
-
 </body>
-
 </html>
